@@ -1,0 +1,1 @@
+C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\core\opencv_test_core_AVX512_SKX.dir\Release\opencv_test_core_AVX512_SKX.lib

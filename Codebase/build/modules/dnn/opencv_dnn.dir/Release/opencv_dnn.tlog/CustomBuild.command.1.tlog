@@ -1,0 +1,20 @@
+^C:\USERS\NICKP\DESKTOP\SDDEC26-12 SENIOR DESIGN\SDDEC26-12\CODEBASE\BUILD\CMAKEFILES\2031E9F8E5AA5E06660BBFD06FD1265F\OPENCL_KERNELS_DNN.CPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DMODULE_NAME=dnn "-DCL_DIR=C:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/OpenCV/opencv/modules/dnn/src/opencl" "-DOUTPUT=C:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/Codebase/build/modules/dnn/opencl_kernels_dnn.cpp" -P "C:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/OpenCV/opencv/cmake/cl2cpp.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NICKP\DESKTOP\SDDEC26-12 SENIOR DESIGN\SDDEC26-12\OPENCV\OPENCV\MODULES\DNN\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/OpenCV/opencv" "-BC:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/Codebase/build" --check-stamp-file "C:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/Codebase/build/modules/dnn/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

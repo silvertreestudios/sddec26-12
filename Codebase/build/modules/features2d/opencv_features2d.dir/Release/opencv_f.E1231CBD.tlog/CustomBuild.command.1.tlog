@@ -1,0 +1,20 @@
+^C:\USERS\NICKP\DESKTOP\SDDEC26-12 SENIOR DESIGN\SDDEC26-12\CODEBASE\BUILD\CMAKEFILES\CCAEED36B92FA88C442C449216D58B4F\OPENCL_KERNELS_FEATURES2D.CPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DMODULE_NAME=features2d "-DCL_DIR=C:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/OpenCV/opencv/modules/features2d/src/opencl" "-DOUTPUT=C:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/Codebase/build/modules/features2d/opencl_kernels_features2d.cpp" -P "C:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/OpenCV/opencv/cmake/cl2cpp.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NICKP\DESKTOP\SDDEC26-12 SENIOR DESIGN\SDDEC26-12\OPENCV\OPENCV\MODULES\FEATURES2D\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/OpenCV/opencv" "-BC:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/Codebase/build" --check-stamp-file "C:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/Codebase/build/modules/features2d/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

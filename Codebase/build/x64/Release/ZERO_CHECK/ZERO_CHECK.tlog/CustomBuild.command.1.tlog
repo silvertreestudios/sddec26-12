@@ -1,0 +1,10 @@
+^C:\USERS\NICKP\DESKTOP\SDDEC26-12 SENIOR DESIGN\SDDEC26-12\CODEBASE\BUILD\CMAKEFILES\D084CE29CF0BFF445AEB2BD6E82E262A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/OpenCV/opencv" "-BC:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/Codebase/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/Codebase/build/OpenCV.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

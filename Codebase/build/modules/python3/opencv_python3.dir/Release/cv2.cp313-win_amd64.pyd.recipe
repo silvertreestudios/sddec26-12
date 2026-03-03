@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\python_bindings_generator\x64\Release\gen_opencv_python_source</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\bin\Release\opencv_core4140.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\bin\Release\opencv_flann4140.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\bin\Release\opencv_imgproc4140.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\bin\Release\opencv_features2d4140.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\bin\Release\opencv_calib3d4140.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\bin\Release\opencv_dnn4140.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\bin\Release\opencv_video4140.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\bin\Release\opencv_gapi4140.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\bin\Release\opencv_imgcodecs4140.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\bin\Release\opencv_videoio4140.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\bin\Release\opencv_highgui4140.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\bin\Release\opencv_ml4140.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\bin\Release\opencv_objdetect4140.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\bin\Release\opencv_photo4140.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\bin\Release\opencv_stitching4140.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\lib\python3\Release\cv2.cp313-win_amd64.pyd</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

@@ -1,0 +1,20 @@
+^C:\USERS\NICKP\DESKTOP\SDDEC26-12 SENIOR DESIGN\SDDEC26-12\CODEBASE\BUILD\CMAKEFILES\DC490EC66198955D6BC8F57C9A859DF4\OPENCL_KERNELS_STITCHING.CPP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -DMODULE_NAME=stitching "-DCL_DIR=C:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/OpenCV/opencv/modules/stitching/src/opencl" "-DOUTPUT=C:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/Codebase/build/modules/stitching/opencl_kernels_stitching.cpp" -P "C:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/OpenCV/opencv/cmake/cl2cpp.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\NICKP\DESKTOP\SDDEC26-12 SENIOR DESIGN\SDDEC26-12\OPENCV\OPENCV\MODULES\STITCHING\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/OpenCV/opencv" "-BC:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/Codebase/build" --check-stamp-file "C:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/Codebase/build/modules/stitching/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
