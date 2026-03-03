@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\CMakeFiles\4026953918dd0942041dd8e09bb97fdc\gen_opencv_java_source.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\CMakeFiles\bf9cd359f70f96d060986cf39fa8562f\gen_opencv_java_source.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\java\generator\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\java\generator\gen_java.py" />
+    <None Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\java_bindings_generator\gen_java.json" />
+    <None Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\java_bindings_generator\CMakeFiles\gen_opencv_java_source" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{248C621B-969B-325E-A96B-4118412FB7EF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

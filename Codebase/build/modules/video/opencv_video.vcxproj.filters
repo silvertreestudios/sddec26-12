@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\video\CMakeFiles\opencv_video.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\bgfg_KNN.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\bgfg_gaussmix2.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\camshift.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\dis_flow.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\ecc.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\kalman.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\lkpyramid.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\optflowgf.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\optical_flow_io.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\tracking\detail\tracker_feature.cpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\tracking\detail\tracker_feature_set.cpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\tracking\detail\tracker_mil_model.cpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\tracking\detail\tracker_mil_state.cpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\tracking\detail\tracker_model.cpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\tracking\detail\tracker_sampler.cpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\tracking\detail\tracker_sampler_algorithm.cpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\tracking\detail\tracker_state_estimator.cpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\tracking\detail\tracking_feature.cpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\tracking\detail\tracking_online_mil.cpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\tracking\tracker.cpp">
+      <Filter>Src\tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\tracking\tracker_dasiamrpn.cpp">
+      <Filter>Src\tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\tracking\tracker_goturn.cpp">
+      <Filter>Src\tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\tracking\tracker_mil.cpp">
+      <Filter>Src\tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\tracking\tracker_nano.cpp">
+      <Filter>Src\tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\tracking\tracker_vit.cpp">
+      <Filter>Src\tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\variational_refinement.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\video\opencl_kernels_video.cpp">
+      <Filter>Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\video\opencv_video_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\include\opencv2\video.hpp">
+      <Filter>Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\include\opencv2\video\background_segm.hpp">
+      <Filter>Include\opencv2\video</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\include\opencv2\video\detail\tracking.detail.hpp">
+      <Filter>Include\opencv2\video\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\include\opencv2\video\legacy\constants_c.h">
+      <Filter>Include\opencv2\video\legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\include\opencv2\video\tracking.hpp">
+      <Filter>Include\opencv2\video</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\include\opencv2\video\video.hpp">
+      <Filter>Include\opencv2\video</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\video\opencl_kernels_video.hpp">
+      <Filter>Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\hal_replacement.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\lkpyramid.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\tracking\detail\tracker_feature_haar.impl.hpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\tracking\detail\tracker_mil_model.hpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\tracking\detail\tracker_mil_state.hpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\tracking\detail\tracking_feature.hpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\tracking\detail\tracking_online_mil.hpp">
+      <Filter>Src\tracking\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\video\CMakeFiles\opencv_video.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\video\CMakeFiles\opencv_video.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\CMakeFiles\826457f1812e5dc8dbdc2adf7844dcbe\opencl_kernels_video.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\opencl\bgfg_knn.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\opencl\bgfg_mog2.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\opencl\dis_flow.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\opencl\optical_flow_farneback.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\video\src\opencl\pyrlk.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\video\vs_version.rc">
+      <Filter>Src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{248C621B-969B-325E-A96B-4118412FB7EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{27BFF2C5-6E1F-326D-A42D-F532538FD63C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{2557E86C-102B-3559-9996-C1B8EDDA1FEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\video">
+      <UniqueIdentifier>{7EE397A8-2239-3FAE-9FA7-634FCF43B4B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\video\detail">
+      <UniqueIdentifier>{0487D3D8-DABD-3EC3-8D4E-A592E2D16B31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\video\legacy">
+      <UniqueIdentifier>{B1369E3B-66A6-38A3-9889-E799D2EB5B54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{B441B27A-A773-30F5-83E0-CC0C40DE0BEE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{074D91A7-7189-3F79-B420-DEA0B1A7CA3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{EA73E206-DAEB-32AF-9D8E-5514D738442D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl">
+      <UniqueIdentifier>{AB83C1B7-C693-36D4-84DD-A063385E6D4F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl\kernels">
+      <UniqueIdentifier>{CC8A0E12-0CB8-3E47-A6A5-4704A4A5B522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{0A0D1C20-9B16-383C-B2D8-C4926CFC8979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\tracking">
+      <UniqueIdentifier>{7A7A2036-93F2-33D0-8349-EDCC175E84DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\tracking\detail">
+      <UniqueIdentifier>{BB3C61E8-DB18-31EE-9475-8C67347D48C1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

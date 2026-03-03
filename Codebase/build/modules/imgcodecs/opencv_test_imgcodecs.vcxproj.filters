@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\imgcodecs\CMakeFiles\opencv_test_imgcodecs.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\imgcodecs\test\test_animation.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\imgcodecs\test\test_avif.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\imgcodecs\test\test_bmp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\imgcodecs\test\test_common.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\imgcodecs\test\test_exif.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\imgcodecs\test\test_gdal.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\imgcodecs\test\test_gif.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\imgcodecs\test\test_grfmt.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\imgcodecs\test\test_jpeg.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\imgcodecs\test\test_jpegxl.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\imgcodecs\test\test_main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\imgcodecs\test\test_png.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\imgcodecs\test\test_read_write.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\imgcodecs\test\test_tiff.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\imgcodecs\test\test_webp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\imgcodecs\test\test_common.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\imgcodecs\test\test_exr.impl.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\imgcodecs\test\test_precomp.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\imgcodecs\CMakeFiles\opencv_test_imgcodecs.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\imgcodecs\CMakeFiles\opencv_test_imgcodecs.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\imgcodecs\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{27BFF2C5-6E1F-326D-A42D-F532538FD63C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{B441B27A-A773-30F5-83E0-CC0C40DE0BEE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{074D91A7-7189-3F79-B420-DEA0B1A7CA3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{EA73E206-DAEB-32AF-9D8E-5514D738442D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

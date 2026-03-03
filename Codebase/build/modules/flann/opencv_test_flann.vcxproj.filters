@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\flann\CMakeFiles\opencv_test_flann.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\flann\test\test_lshtable_badarg.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\flann\test\test_main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\flann\test\test_precomp.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\flann\CMakeFiles\opencv_test_flann.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\flann\CMakeFiles\opencv_test_flann.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\flann\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{27BFF2C5-6E1F-326D-A42D-F532538FD63C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{B441B27A-A773-30F5-83E0-CC0C40DE0BEE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{074D91A7-7189-3F79-B420-DEA0B1A7CA3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{EA73E206-DAEB-32AF-9D8E-5514D738442D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{00F7481C-7762-37F2-83EF-9EE7F0C5C0C5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>opencv_modules</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\hal\ipp\include;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\3rdparty\ippicv\ippicv_win\icv\include;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\3rdparty\ippicv\ippicv_win\iw\include;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\3rdparty\dlpack\include;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\hal\ipp\include;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\3rdparty\ippicv\ippicv_win\icv\include;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\3rdparty\ippicv\ippicv_win\iw\include;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\3rdparty\dlpack\include;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/OpenCV/opencv/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/OpenCV/opencv" "-BC:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/Codebase/build" --check-stamp-file "C:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/Codebase/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindJavaCommon.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindBLAS.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindJNI.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindJava.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindLAPACK.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\TestBigEndian.cmake;C:\Program Files\CMake\share\cmake-4.3\Templates\CPackConfig.cmake.in;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\3rdparty\ffmpeg\ffmpeg_version.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\CMakeFiles\4.3.0-rc1\CMakeCCompiler.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\CMakeFiles\4.3.0-rc1\CMakeCXXCompiler.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\CMakeFiles\4.3.0-rc1\CMakeRCCompiler.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\CMakeFiles\4.3.0-rc1\CMakeSystem.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\3rdparty\ffmpeg\ffmpeg.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\3rdparty\ippicv\ippicv.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVCRTLinkage.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVCompilerOptimizations.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVCompilerOptions.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVDetectCXXCompiler.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVDetectDLPack.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVDetectDirectML.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVDetectDirectX.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVDetectFlatbuffers.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVDetectOpenCL.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVDetectPython.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVDetectTrace.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVDetectVTK.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVDownload.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVExtraTargets.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVFindAVIF.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVFindFrameworks.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVFindIPP.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVFindIPPIW.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVFindLAPACK.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVFindLibsGUI.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVFindLibsGrfmt.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVFindLibsPerf.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVFindLibsVideo.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVFindMKL.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVFindOpenBLAS.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVFindOpenEXR.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVFindProtobuf.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVGenABI.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVGenAndroidMK.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVGenConfig.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVGenHeaders.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVGenSetupVars.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVInstallLayout.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVMinDepVersions.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVModule.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVPCHSupport.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVPackaging.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVUtils.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVVersion.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\checks\directml.cpp;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\checks\directx.cpp;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\checks\opencl.cpp;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\checks\win32uitest.cpp;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\platforms\OpenCV-Windows.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\templates\OpenCVConfig-version.cmake.in;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\templates\OpenCVConfig.cmake.in;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\templates\OpenCVConfig.root-WIN32.cmake.in;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\templates\cmake_uninstall.cmake.in;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\templates\custom_hal.hpp.in;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\templates\cv_cpu_config.h.in;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\templates\cvconfig.h.in;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\templates\opencv_modules.hpp.in;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\templates\setup_vars_win32.cmd.in;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\vars\EnableModeVars.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\core\include\opencv2\core\version.hpp;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\dnn\cmake\init.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\gapi\cmake\DownloadADE.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\gapi\cmake\init.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\highgui\cmake\detect_win32ui.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\highgui\cmake\init.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\videoio\cmake\detect_dshow.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\videoio\cmake\detect_ffmpeg.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\videoio\cmake\detect_gstreamer.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\videoio\cmake\detect_msmf.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\videoio\cmake\detect_obsensor.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\videoio\cmake\init.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/OpenCV/opencv/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/OpenCV/opencv" "-BC:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/Codebase/build" --check-stamp-file "C:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/Codebase/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindJavaCommon.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindBLAS.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindJNI.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindJava.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindLAPACK.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\TestBigEndian.cmake;C:\Program Files\CMake\share\cmake-4.3\Templates\CPackConfig.cmake.in;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\3rdparty\ffmpeg\ffmpeg_version.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\CMakeFiles\4.3.0-rc1\CMakeCCompiler.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\CMakeFiles\4.3.0-rc1\CMakeCXXCompiler.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\CMakeFiles\4.3.0-rc1\CMakeRCCompiler.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\CMakeFiles\4.3.0-rc1\CMakeSystem.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\3rdparty\ffmpeg\ffmpeg.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\3rdparty\ippicv\ippicv.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVCRTLinkage.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVCompilerOptimizations.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVCompilerOptions.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVDetectCXXCompiler.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVDetectDLPack.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVDetectDirectML.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVDetectDirectX.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVDetectFlatbuffers.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVDetectOpenCL.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVDetectPython.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVDetectTrace.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVDetectVTK.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVDownload.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVExtraTargets.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVFindAVIF.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVFindFrameworks.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVFindIPP.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVFindIPPIW.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVFindLAPACK.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVFindLibsGUI.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVFindLibsGrfmt.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVFindLibsPerf.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVFindLibsVideo.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVFindMKL.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVFindOpenBLAS.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVFindOpenEXR.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVFindProtobuf.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVGenABI.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVGenAndroidMK.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVGenConfig.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVGenHeaders.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVGenSetupVars.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVInstallLayout.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVMinDepVersions.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVModule.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVPCHSupport.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVPackaging.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVUtils.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\OpenCVVersion.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\checks\directml.cpp;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\checks\directx.cpp;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\checks\opencl.cpp;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\checks\win32uitest.cpp;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\platforms\OpenCV-Windows.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\templates\OpenCVConfig-version.cmake.in;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\templates\OpenCVConfig.cmake.in;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\templates\OpenCVConfig.root-WIN32.cmake.in;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\templates\cmake_uninstall.cmake.in;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\templates\custom_hal.hpp.in;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\templates\cv_cpu_config.h.in;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\templates\cvconfig.h.in;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\templates\opencv_modules.hpp.in;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\templates\setup_vars_win32.cmd.in;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\cmake\vars\EnableModeVars.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\core\include\opencv2\core\version.hpp;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\dnn\cmake\init.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\gapi\cmake\DownloadADE.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\gapi\cmake\init.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\highgui\cmake\detect_win32ui.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\highgui\cmake\init.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\videoio\cmake\detect_dshow.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\videoio\cmake\detect_ffmpeg.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\videoio\cmake\detect_gstreamer.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\videoio\cmake\detect_msmf.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\videoio\cmake\detect_obsensor.cmake;C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\videoio\cmake\init.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\ZERO_CHECK.vcxproj">
+      <Project>{BF5CE319-C2D2-3506-914E-30B59B8E3543}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\calib3d\opencv_calib3d.vcxproj">
+      <Project>{A5474B9A-7BCB-3893-AAE8-2DDC731BE7E2}</Project>
+      <Name>opencv_calib3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\core\opencv_core.vcxproj">
+      <Project>{47A5CC8D-7CAC-3CF9-8C9A-75C6957BA069}</Project>
+      <Name>opencv_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\dnn\opencv_dnn.vcxproj">
+      <Project>{797F1A75-6746-3F1E-8681-9B32AFA755FE}</Project>
+      <Name>opencv_dnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\features2d\opencv_features2d.vcxproj">
+      <Project>{E1231CBD-6675-32D9-9129-6C0BB369ED23}</Project>
+      <Name>opencv_features2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\flann\opencv_flann.vcxproj">
+      <Project>{91A781C9-B6DB-3657-B2E5-85395618EF31}</Project>
+      <Name>opencv_flann</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\gapi\opencv_gapi.vcxproj">
+      <Project>{2EFABBB2-E7CD-3D7F-AFC6-1213FAB4179A}</Project>
+      <Name>opencv_gapi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\highgui\opencv_highgui.vcxproj">
+      <Project>{AE3E9A72-DDF5-33D4-B201-1203119F5B40}</Project>
+      <Name>opencv_highgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\imgcodecs\opencv_imgcodecs.vcxproj">
+      <Project>{2280FDF3-4826-3D88-8488-400CCCE21E05}</Project>
+      <Name>opencv_imgcodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\imgproc\opencv_imgproc.vcxproj">
+      <Project>{D2AC7367-9BC5-3B4F-899C-1AD54DF9BA70}</Project>
+      <Name>opencv_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\ml\opencv_ml.vcxproj">
+      <Project>{69FD9C5D-BD57-37E8-8BA3-401A2091871F}</Project>
+      <Name>opencv_ml</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\objdetect\opencv_objdetect.vcxproj">
+      <Project>{A8836CF2-E1CD-32D3-A3F1-AC61D3219C5C}</Project>
+      <Name>opencv_objdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\photo\opencv_photo.vcxproj">
+      <Project>{2A02041C-CC82-330C-B667-35F952DC3E3E}</Project>
+      <Name>opencv_photo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\stitching\opencv_stitching.vcxproj">
+      <Project>{9451140B-FD49-3B9A-8FEA-4BDE830C8874}</Project>
+      <Name>opencv_stitching</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\ts\opencv_ts.vcxproj">
+      <Project>{416B3964-9BD8-38F2-9110-141B5AE41CE3}</Project>
+      <Name>opencv_ts</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\video\opencv_video.vcxproj">
+      <Project>{63204A40-B544-39B7-85F9-522162331A5C}</Project>
+      <Name>opencv_video</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\videoio\opencv_videoio.vcxproj">
+      <Project>{92945905-9A88-314C-BDBA-8403D7EB174E}</Project>
+      <Name>opencv_videoio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

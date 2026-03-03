@@ -1,0 +1,4 @@
+
+#define OPENCV_INSTALL_PREFIX "C:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/Codebase/build/install"
+
+#define OPENCV_TEST_DATA_INSTALL_PATH "testdata"

@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\objdetect\CMakeFiles\opencv_objdetect.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\aruco\apriltag\apriltag_quad_thresh.cpp">
+      <Filter>Src\aruco\apriltag</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\aruco\apriltag\zmaxheap.cpp">
+      <Filter>Src\aruco\apriltag</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\aruco\aruco_board.cpp">
+      <Filter>Src\aruco</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\aruco\aruco_detector.cpp">
+      <Filter>Src\aruco</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\aruco\aruco_dictionary.cpp">
+      <Filter>Src\aruco</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\aruco\aruco_utils.cpp">
+      <Filter>Src\aruco</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\aruco\charuco_detector.cpp">
+      <Filter>Src\aruco</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\barcode.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\barcode_decoder\abs_decoder.cpp">
+      <Filter>Src\barcode_decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\barcode_decoder\common\hybrid_binarizer.cpp">
+      <Filter>Src\barcode_decoder\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\barcode_decoder\common\super_scale.cpp">
+      <Filter>Src\barcode_decoder\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\barcode_decoder\common\utils.cpp">
+      <Filter>Src\barcode_decoder\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\barcode_decoder\ean13_decoder.cpp">
+      <Filter>Src\barcode_decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\barcode_decoder\ean8_decoder.cpp">
+      <Filter>Src\barcode_decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\barcode_decoder\upcean_decoder.cpp">
+      <Filter>Src\barcode_decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\barcode_detector\bardetect.cpp">
+      <Filter>Src\barcode_detector</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\cascadedetect.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\cascadedetect_convert.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\detection_based_tracker.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\face_detect.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\face_recognize.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\graphical_code_detector.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\hog.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\qrcode.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\qrcode_encoder.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\objdetect\opencl_kernels_objdetect.cpp">
+      <Filter>Src\opencl\kernels\autogenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\objdetect\opencv_objdetect_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\include\opencv2\objdetect.hpp">
+      <Filter>Include\opencv2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\include\opencv2\objdetect\aruco_board.hpp">
+      <Filter>Include\opencv2\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\include\opencv2\objdetect\aruco_detector.hpp">
+      <Filter>Include\opencv2\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\include\opencv2\objdetect\aruco_dictionary.hpp">
+      <Filter>Include\opencv2\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\include\opencv2\objdetect\barcode.hpp">
+      <Filter>Include\opencv2\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\include\opencv2\objdetect\charuco_detector.hpp">
+      <Filter>Include\opencv2\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\include\opencv2\objdetect\detection_based_tracker.hpp">
+      <Filter>Include\opencv2\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\include\opencv2\objdetect\face.hpp">
+      <Filter>Include\opencv2\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\include\opencv2\objdetect\graphical_code_detector.hpp">
+      <Filter>Include\opencv2\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\include\opencv2\objdetect\objdetect.hpp">
+      <Filter>Include\opencv2\objdetect</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\objdetect\opencl_kernels_objdetect.hpp">
+      <Filter>Src\opencl\kernels\autogenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\aruco\apriltag\apriltag_quad_thresh.hpp">
+      <Filter>Src\aruco\apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\aruco\apriltag\predefined_dictionaries_apriltag.hpp">
+      <Filter>Src\aruco\apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\aruco\apriltag\unionfind.hpp">
+      <Filter>Src\aruco\apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\aruco\apriltag\zarray.hpp">
+      <Filter>Src\aruco\apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\aruco\apriltag\zmaxheap.hpp">
+      <Filter>Src\aruco\apriltag</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\aruco\aruco_utils.hpp">
+      <Filter>Src\aruco</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\aruco\predefined_dictionaries.hpp">
+      <Filter>Src\aruco</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\barcode_decoder\abs_decoder.hpp">
+      <Filter>Src\barcode_decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\barcode_decoder\common\hybrid_binarizer.hpp">
+      <Filter>Src\barcode_decoder\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\barcode_decoder\common\super_scale.hpp">
+      <Filter>Src\barcode_decoder\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\barcode_decoder\common\utils.hpp">
+      <Filter>Src\barcode_decoder\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\barcode_decoder\ean13_decoder.hpp">
+      <Filter>Src\barcode_decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\barcode_decoder\ean8_decoder.hpp">
+      <Filter>Src\barcode_decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\barcode_decoder\upcean_decoder.hpp">
+      <Filter>Src\barcode_decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\barcode_detector\bardetect.hpp">
+      <Filter>Src\barcode_detector</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\cascadedetect.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\graphical_code_detector_impl.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\precomp.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\qrcode_encoder_table.inl.hpp">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\cvconfig.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\opencv2\opencv_modules.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\objdetect\CMakeFiles\opencv_objdetect.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\objdetect\CMakeFiles\opencv_objdetect.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\CMakeFiles\1ef8a8f3e4068628cb834a1788edccc5\opencl_kernels_objdetect.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\opencl\cascadedetect.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+    <None Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\OpenCV\opencv\modules\objdetect\src\opencl\objdetect_hog.cl">
+      <Filter>Src\opencl\kernels</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\nickp\Desktop\SDDEC26-12 Senior Design\sddec26-12\Codebase\build\modules\objdetect\vs_version.rc">
+      <Filter>Src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{248C621B-969B-325E-A96B-4118412FB7EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{27BFF2C5-6E1F-326D-A42D-F532538FD63C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2">
+      <UniqueIdentifier>{2557E86C-102B-3559-9996-C1B8EDDA1FEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\opencv2\objdetect">
+      <UniqueIdentifier>{D2226E06-9416-373B-A9A1-3EFA3609CBBD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{B441B27A-A773-30F5-83E0-CC0C40DE0BEE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{074D91A7-7189-3F79-B420-DEA0B1A7CA3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{EA73E206-DAEB-32AF-9D8E-5514D738442D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\aruco">
+      <UniqueIdentifier>{572FC63D-97D1-3556-A606-3CD0FF6DD7F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\aruco\apriltag">
+      <UniqueIdentifier>{3F7485A5-9327-301A-8CE2-9C8AEA580E82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\barcode_decoder">
+      <UniqueIdentifier>{04637A00-0C70-3BDC-AA86-15F5E7ADDBF7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\barcode_decoder\common">
+      <UniqueIdentifier>{08882767-CD11-3EB3-B0F6-CB27CC25DD59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\barcode_detector">
+      <UniqueIdentifier>{2D2EE44C-0CA8-3D93-9B13-20842035CE55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl">
+      <UniqueIdentifier>{AB83C1B7-C693-36D4-84DD-A063385E6D4F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl\kernels">
+      <UniqueIdentifier>{CC8A0E12-0CB8-3E47-A6A5-4704A4A5B522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\opencl\kernels\autogenerated">
+      <UniqueIdentifier>{0A0D1C20-9B16-383C-B2D8-C4926CFC8979}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

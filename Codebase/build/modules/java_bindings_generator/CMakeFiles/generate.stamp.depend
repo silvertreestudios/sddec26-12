@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/OpenCV/opencv/cmake/OpenCVBindingsPreprocessorDefinitions.cmake
+C:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/OpenCV/opencv/modules/core/misc/java/src/java/core+Core.jcode.in
+C:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/OpenCV/opencv/modules/java/common.cmake
+C:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/OpenCV/opencv/modules/java/generator/CMakeLists.txt
+C:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/OpenCV/opencv/modules/java/generator/android/java/org/opencv/android/OpenCVLoader.java.in
+C:/Users/nickp/Desktop/SDDEC26-12 Senior Design/sddec26-12/OpenCV/opencv/modules/java/generator/src/java/org/opencv/osgi/OpenCVNativeLoader.java.in

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Debug"/>
+		<BuildType Name="Release"/>
+		<Platform Name="x64"/>
+	</Configurations>
+	<Project Path="../../opencv_highgui_plugins.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="6f4b12e3-c5f8-35ff-baf2-03064fa14a54">
+		<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="../.firstpass/videoio/opencv_videoio_plugins.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="5d9b8c15-31c0-39d1-a847-02feefdbbf5b">
+		<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Folder Name="/3rdparty/">
+		<Project Path="../../3rdparty/openexr/IlmImf.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="fd6163d1-26f9-3e82-a3fe-288f71d760b1">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../3rdparty/zlib/zlib.vcxproj"/>
+		</Project>
+		<Project Path="../../hal/ipp/ipphal.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="a0684617-ce17-33a1-8011-24d606941c73">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../3rdparty/ippiw/ippiw.vcxproj"/>
+		</Project>
+		<Project Path="../../3rdparty/ippiw/ippiw.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="3877bcd9-7a4d-36a0-9750-0865b3e252d8">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="../../3rdparty/ittnotify/ittnotify.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="7b6c2e17-a81e-33bc-92ae-ede3541d5ac3">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="../../3rdparty/openjpeg/openjp2/libopenjp2.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="4a891496-985e-35f9-94ab-71bc0840a590">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="../../3rdparty/libpng/libpng.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="e9eca4d8-7d81-3e31-977a-c399a02bc7a4">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../3rdparty/zlib/zlib.vcxproj"/>
+		</Project>
+		<Project Path="../../3rdparty/libtiff/libtiff.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="27142474-1ca9-3a2b-92de-71d1c343e897">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../3rdparty/zlib/zlib.vcxproj"/>
+		</Project>
+		<Project Path="../../3rdparty/libwebp/libwebp.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="be34764d-c320-3415-abe6-c07eeda5eaf4">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="../../3rdparty/zlib/zlib.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="7767bf15-d06a-37cc-9a20-6aa41f70a33a">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+	</Folder>
+	<Folder Name="/3rdparty/jpeg/">
+		<Project Path="../../3rdparty/libjpeg-turbo/jpeg12-static.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="1755e593-1db2-3d21-9de7-98ceeb0c0ca3">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="../../3rdparty/libjpeg-turbo/jpeg16-static.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="666677b9-9f67-3c48-9d32-c4335e8cf943">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="../../3rdparty/libjpeg-turbo/libjpeg-turbo.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="a9bbd426-05fe-3649-b2f2-3dcd3748dd6e">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../3rdparty/libjpeg-turbo/jpeg12-static.vcxproj"/>
+			<BuildDependency Project="../../3rdparty/libjpeg-turbo/jpeg16-static.vcxproj"/>
+		</Project>
+	</Folder>
+	<Folder Name="/CMakeTargets/">
+		<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="71bcf01a-2ffa-3b0b-a618-c61cf0effdd6" DefaultStartup="true">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="opencv_core.vcxproj"/>
+			<BuildDependency Project="opencv_core_AVX.vcxproj"/>
+			<BuildDependency Project="opencv_core_AVX2.vcxproj"/>
+			<BuildDependency Project="opencv_core_AVX512_SKX.vcxproj"/>
+			<BuildDependency Project="opencv_core_SSE4_1.vcxproj"/>
+			<BuildDependency Project="opencv_core_SSE4_2.vcxproj"/>
+			<BuildDependency Project="opencv_perf_core.vcxproj"/>
+			<BuildDependency Project="opencv_test_core.vcxproj"/>
+			<BuildDependency Project="opencv_test_core_AVX.vcxproj"/>
+			<BuildDependency Project="opencv_test_core_AVX2.vcxproj"/>
+			<BuildDependency Project="opencv_test_core_AVX512_SKX.vcxproj"/>
+			<BuildDependency Project="opencv_test_core_FP16.vcxproj"/>
+			<BuildDependency Project="opencv_test_core_SSE2.vcxproj"/>
+			<BuildDependency Project="opencv_test_core_SSE3.vcxproj"/>
+			<BuildDependency Project="opencv_test_core_SSE4_1.vcxproj"/>
+			<BuildDependency Project="opencv_test_core_SSE4_2.vcxproj"/>
+		</Project>
+		<Project Path="INSTALL.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="6269df72-4315-3839-b496-4903cb89ec89">
+			<BuildDependency Project="ALL_BUILD.vcxproj"/>
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<Build Solution="Debug|*" Project="false"/>
+			<Build Solution="Release|*" Project="false"/>
+		</Project>
+		<Project Path="PACKAGE.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="45f64250-9cdc-340a-b076-d3275c7c6d0c">
+			<BuildDependency Project="ALL_BUILD.vcxproj"/>
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<Build Solution="Debug|*" Project="false"/>
+			<Build Solution="Release|*" Project="false"/>
+		</Project>
+		<Project Path="RUN_TESTS.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="400070f9-53b3-3ab1-a042-624ade39210a">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<Build Solution="Debug|*" Project="false"/>
+			<Build Solution="Release|*" Project="false"/>
+		</Project>
+		<Project Path="../../ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="bf5ce319-c2d2-3506-914e-30b59b8e3543"/>
+	</Folder>
+	<Folder Name="/dispatched/">
+		<Project Path="opencv_core_AVX.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="3013d5d0-33be-30c6-9687-dd65a2dd53bd">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="opencv_core_AVX2.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="55cfa900-a8f3-3ed5-96d1-7eacf03afccd">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="opencv_core_AVX512_SKX.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="39f7e222-4033-3cbf-84e5-28046a31e029">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="opencv_core_SSE4_1.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="aac1ea5a-b745-3494-ae69-3f941429d165">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="opencv_core_SSE4_2.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="df5db0d3-3ec6-3dbe-b2ee-f2a31f36fd54">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="../imgproc/opencv_imgproc_AVX.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="129786a3-85c0-3f9c-8377-67d5b91e3521">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="../imgproc/opencv_imgproc_AVX2.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="5f204851-402a-38c2-8ab9-1a12f53c94bb">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="../imgproc/opencv_imgproc_AVX512_SKX.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="481f9fb5-2f7d-380b-ad70-8850c074017c">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="../imgproc/opencv_imgproc_SSE4_1.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="36ae74aa-7db6-3684-9dea-6b49e52c39ea">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="opencv_test_core_AVX.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="945c0d99-9622-3c77-9f01-29f97ac1cc2c">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="opencv_test_core_AVX2.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="c7ac7de9-1d0d-316b-8d56-a157e5012834">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="opencv_test_core_AVX512_SKX.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="b006f7d9-e665-3e47-9ce8-a2f89dd04af4">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="opencv_test_core_FP16.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="2ac08e94-3a28-374d-bac8-2b233511ab02">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="opencv_test_core_SSE2.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="a68eccb5-87b0-3ee3-a4df-608ca4cd8039">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="opencv_test_core_SSE3.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="2e5dc3e1-d797-386a-8df4-d88443c86541">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="opencv_test_core_SSE4_1.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="af0f086c-0360-3ab5-8bfc-9ceeaecaa493">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="opencv_test_core_SSE4_2.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="e34d6053-3448-3230-a53a-1d3ac1423a5b">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+		</Project>
+	</Folder>
+	<Folder Name="/modules/">
+		<Project Path="opencv_core.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="47a5cc8d-7cac-3cf9-8c9a-75c6957ba069">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../hal/ipp/ipphal.vcxproj"/>
+			<BuildDependency Project="../../3rdparty/ippiw/ippiw.vcxproj"/>
+			<BuildDependency Project="../../3rdparty/ittnotify/ittnotify.vcxproj"/>
+			<BuildDependency Project="opencv_core_AVX.vcxproj"/>
+			<BuildDependency Project="opencv_core_AVX2.vcxproj"/>
+			<BuildDependency Project="opencv_core_AVX512_SKX.vcxproj"/>
+			<BuildDependency Project="opencv_core_SSE4_1.vcxproj"/>
+			<BuildDependency Project="opencv_core_SSE4_2.vcxproj"/>
+			<BuildDependency Project="../../3rdparty/zlib/zlib.vcxproj"/>
+		</Project>
+		<Project Path="../highgui/opencv_highgui.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="ae3e9a72-ddf5-33d4-b201-1203119f5b40">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../hal/ipp/ipphal.vcxproj"/>
+			<BuildDependency Project="../../3rdparty/ippiw/ippiw.vcxproj"/>
+			<BuildDependency Project="opencv_core.vcxproj"/>
+			<BuildDependency Project="../imgcodecs/opencv_imgcodecs.vcxproj"/>
+			<BuildDependency Project="../imgproc/opencv_imgproc.vcxproj"/>
+			<BuildDependency Project="../videoio/opencv_videoio.vcxproj"/>
+		</Project>
+		<Project Path="../imgcodecs/opencv_imgcodecs.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="2280fdf3-4826-3d88-8488-400ccce21e05">
+			<BuildDependency Project="../../3rdparty/openexr/IlmImf.vcxproj"/>
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../hal/ipp/ipphal.vcxproj"/>
+			<BuildDependency Project="../../3rdparty/ippiw/ippiw.vcxproj"/>
+			<BuildDependency Project="../../3rdparty/libjpeg-turbo/libjpeg-turbo.vcxproj"/>
+			<BuildDependency Project="../../3rdparty/openjpeg/openjp2/libopenjp2.vcxproj"/>
+			<BuildDependency Project="../../3rdparty/libpng/libpng.vcxproj"/>
+			<BuildDependency Project="../../3rdparty/libtiff/libtiff.vcxproj"/>
+			<BuildDependency Project="../../3rdparty/libwebp/libwebp.vcxproj"/>
+			<BuildDependency Project="opencv_core.vcxproj"/>
+			<BuildDependency Project="../imgproc/opencv_imgproc.vcxproj"/>
+			<BuildDependency Project="../../3rdparty/zlib/zlib.vcxproj"/>
+		</Project>
+		<Project Path="../imgproc/opencv_imgproc.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="d2ac7367-9bc5-3b4f-899c-1ad54df9ba70">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../hal/ipp/ipphal.vcxproj"/>
+			<BuildDependency Project="../../3rdparty/ippiw/ippiw.vcxproj"/>
+			<BuildDependency Project="opencv_core.vcxproj"/>
+			<BuildDependency Project="../imgproc/opencv_imgproc_AVX.vcxproj"/>
+			<BuildDependency Project="../imgproc/opencv_imgproc_AVX2.vcxproj"/>
+			<BuildDependency Project="../imgproc/opencv_imgproc_AVX512_SKX.vcxproj"/>
+			<BuildDependency Project="../imgproc/opencv_imgproc_SSE4_1.vcxproj"/>
+		</Project>
+		<Project Path="../ts/opencv_ts.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="416b3964-9bd8-38f2-9110-141b5ae41ce3">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../hal/ipp/ipphal.vcxproj"/>
+			<BuildDependency Project="../../3rdparty/ippiw/ippiw.vcxproj"/>
+			<BuildDependency Project="opencv_core.vcxproj"/>
+			<BuildDependency Project="../highgui/opencv_highgui.vcxproj"/>
+			<BuildDependency Project="../imgcodecs/opencv_imgcodecs.vcxproj"/>
+			<BuildDependency Project="../imgproc/opencv_imgproc.vcxproj"/>
+			<BuildDependency Project="../videoio/opencv_videoio.vcxproj"/>
+		</Project>
+		<Project Path="../videoio/opencv_videoio.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="92945905-9a88-314c-bdba-8403d7eb174e">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../hal/ipp/ipphal.vcxproj"/>
+			<BuildDependency Project="../../3rdparty/ippiw/ippiw.vcxproj"/>
+			<BuildDependency Project="opencv_core.vcxproj"/>
+			<BuildDependency Project="../imgcodecs/opencv_imgcodecs.vcxproj"/>
+			<BuildDependency Project="../imgproc/opencv_imgproc.vcxproj"/>
+		</Project>
+	</Folder>
+	<Folder Name="/tests accuracy/">
+		<Project Path="opencv_test_core.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="0ba97c04-5a6a-32e2-8028-9ebcad0ca62c">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../hal/ipp/ipphal.vcxproj"/>
+			<BuildDependency Project="../../3rdparty/ippiw/ippiw.vcxproj"/>
+			<BuildDependency Project="opencv_core.vcxproj"/>
+			<BuildDependency Project="../highgui/opencv_highgui.vcxproj"/>
+			<BuildDependency Project="../../opencv_highgui_plugins.vcxproj"/>
+			<BuildDependency Project="../imgcodecs/opencv_imgcodecs.vcxproj"/>
+			<BuildDependency Project="../imgproc/opencv_imgproc.vcxproj"/>
+			<BuildDependency Project="opencv_test_core_AVX.vcxproj"/>
+			<BuildDependency Project="opencv_test_core_AVX2.vcxproj"/>
+			<BuildDependency Project="opencv_test_core_AVX512_SKX.vcxproj"/>
+			<BuildDependency Project="opencv_test_core_FP16.vcxproj"/>
+			<BuildDependency Project="opencv_test_core_SSE2.vcxproj"/>
+			<BuildDependency Project="opencv_test_core_SSE3.vcxproj"/>
+			<BuildDependency Project="opencv_test_core_SSE4_1.vcxproj"/>
+			<BuildDependency Project="opencv_test_core_SSE4_2.vcxproj"/>
+			<BuildDependency Project="../ts/opencv_ts.vcxproj"/>
+			<BuildDependency Project="../videoio/opencv_videoio.vcxproj"/>
+			<BuildDependency Project="../.firstpass/videoio/opencv_videoio_plugins.vcxproj"/>
+		</Project>
+	</Folder>
+	<Folder Name="/tests performance/">
+		<Project Path="opencv_perf_core.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="4150ec7c-5041-33e1-9f16-9d6b01335b0c">
+			<BuildDependency Project="../../ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="../../hal/ipp/ipphal.vcxproj"/>
+			<BuildDependency Project="../../3rdparty/ippiw/ippiw.vcxproj"/>
+			<BuildDependency Project="opencv_core.vcxproj"/>
+			<BuildDependency Project="../highgui/opencv_highgui.vcxproj"/>
+			<BuildDependency Project="../../opencv_highgui_plugins.vcxproj"/>
+			<BuildDependency Project="../imgcodecs/opencv_imgcodecs.vcxproj"/>
+			<BuildDependency Project="../imgproc/opencv_imgproc.vcxproj"/>
+			<BuildDependency Project="../ts/opencv_ts.vcxproj"/>
+			<BuildDependency Project="../videoio/opencv_videoio.vcxproj"/>
+			<BuildDependency Project="../.firstpass/videoio/opencv_videoio_plugins.vcxproj"/>
+		</Project>
+	</Folder>
+</Solution>
