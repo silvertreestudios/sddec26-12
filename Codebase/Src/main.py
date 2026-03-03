@@ -1,25 +1,19 @@
-import cv2 as cv
-import sys
-# print(f"OpenCV version: {cv.__version__}")
+import cv2
 
-# Load the image
-# You can replace "starry_night.jpg" with the path to your own image file.
-# The cv.samples.findFile function helps locate sample images provided with OpenCV.
-img = cv.imread(cv.samples.findFile("./Codebase/Src/Assets/starry_night.jpg"))
+cap = cv2.VideoCapture(0) # Use the correct camera index, typically 0
+if not cap.isOpened():
+    print("Cannot open camera")
+else:
+    print("Camera opened successfully")
 
-# Check if the image loaded correctly
-if img is None:
-    sys.exit("Could not read the image. Check file path or permissions.")
+while True:
+    ret, frame = cap.read()
+    if not ret:
+        print("Can't receive frame (stream end?). Exiting ...")
+        break
+    cv2.imshow('Camera Feed', frame)
+    if cv2.waitKey(1) & 0xFF == ord('q'): # Press 'q' to quit
+        break
 
-# Display the image in a window
-cv.imshow("Display window", img)
-
-# Wait for a key press (0 means wait indefinitely)
-k = cv.waitKey(0)
-
-# Optional: Save the image if the 's' key is pressed
-if k == ord("s"):
-    cv.imwrite("./Codebase/Src/Assets/starry_night.png", img)
-
-# Destroy all the created windows
-cv.destroyAllWindows()
+cap.release()
+cv2.destroyAllWindows()
