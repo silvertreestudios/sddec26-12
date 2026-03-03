@@ -1,10 +1,11 @@
 import cv2 as cv
 import sys
+# print(f"OpenCV version: {cv.__version__}")
 
 # Load the image
 # You can replace "starry_night.jpg" with the path to your own image file.
 # The cv.samples.findFile function helps locate sample images provided with OpenCV.
-img = cv.imread(cv.samples.findFile("starry_night.jpg"))
+img = cv.imread(cv.samples.findFile("./Codebase/Src/Assets/starry_night.jpg"))
 
 # Check if the image loaded correctly
 if img is None:
@@ -18,7 +19,7 @@ k = cv.waitKey(0)
 
 # Optional: Save the image if the 's' key is pressed
 if k == ord("s"):
-    cv.imwrite("starry_night.png", img)
+    cv.imwrite("./Codebase/Src/Assets/starry_night.png", img)
 
 # Destroy all the created windows
 cv.destroyAllWindows()
